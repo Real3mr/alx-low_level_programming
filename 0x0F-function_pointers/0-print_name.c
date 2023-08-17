@@ -2,9 +2,9 @@
 #include <stdio.h>
 /**
  * print_name - using pointer to function
- * @name: sting
+ * @name
  * @f: pointer to function
- * Return
+ *
  **/
 void print_name(char *name, void (*f)(char *))
 {
